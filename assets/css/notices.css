@@ -1,0 +1,82 @@
+.wd-admin-notice {
+    background-color: #fff;
+    background-image: url("map.png");
+    border: 4px;
+    min-height: 68px;
+    padding: 11px 15px;
+    position: relative;
+    display: table;
+    width: 97%;
+    background-repeat: no-repeat;
+    background-position: right center;    
+}
+.wd-admin-notice a {
+  color: #10738B;
+}
+.gmwd-notice-logo {
+  clear: both;
+  content: "";
+  display: block;
+  background-image: url("icon-map.png");
+  background-size: 108px auto;
+  background-repeat: no-repeat;
+  background-position: 0 45%;
+  width: 125px;
+  height: 96px;  
+}
+
+.gmwd-notice-download a{
+    background: #00A0D2;
+    color: #fff;
+    text-decoration: none !important;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.gmwd-notice-download, .gmwd-notice-logo, .gmwd-notice-text{
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+.wd-admin-notice > .dashicons {
+    color: #424242;
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    font-size: 17px;
+}
+.wd-notice-title {
+  font-size: 18px;
+  margin: 0;
+}
+.wd-notice-body {
+  font-weight: normal;
+  margin: 5px 0;
+  font-size: 20px;
+}
+.wd-notice-body a{
+    color: #00A0D2;
+    text-decoration: none;
+}
+.wd-notice-body a:hover{
+    text-decoration: underline;
+}
+.wd-notice-body:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.wd-notice-body li {
+  float: left;
+  margin-right: 20px;
+}
+.wd-notice-body .dashicons {
+  font-size: 17px;
+}
+.wd-blue {
+  color: #10738B;
+}
+
+
+
